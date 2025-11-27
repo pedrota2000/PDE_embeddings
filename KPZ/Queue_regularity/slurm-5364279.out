@@ -1,0 +1,39 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) modules/2.4-20250724   2) openblas/single-0.3.29
+/mnt/sw/nix/store/71ksmx7k6xy3v9ksfkv5mp5kxxp64pd6-python-3.10.13-view/lib/python3.10/site-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/mnt/sw/nix/store/71ksmx7k6xy3v9ksfkv5mp5kxxp64pd6-python-3.10.13-view/lib/python3.10/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+/mnt/sw/nix/store/71ksmx7k6xy3v9ksfkv5mp5kxxp64pd6-python-3.10.13-view/lib/python3.10/site-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/mnt/sw/nix/store/71ksmx7k6xy3v9ksfkv5mp5kxxp64pd6-python-3.10.13-view/lib/python3.10/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+Directory '/mnt/home/ptarancon/NeuroNS/test_pre_Zurich/KPZ/Plots/KPZ_regularity_v2' created.
+Solving Stochastic Burgers:   0%|                                           | 0/101 [00:00<?, ?it/s]/mnt/home/ptarancon/NeuroNS/test_pre_Zurich/KPZ/Queue_regularity/MH_KPZ_NOIC.py:85: RuntimeWarning: overflow encountered in scalar multiply
+  convection = -dt / dx * u[i] * (u[i] - u[i - 1])
+/mnt/home/ptarancon/NeuroNS/test_pre_Zurich/KPZ/Queue_regularity/MH_KPZ_NOIC.py:87: RuntimeWarning: invalid value encountered in scalar add
+  u_new[i] = u[i] + convection + diffusion + dt * noise_term[i]
+/mnt/home/ptarancon/NeuroNS/test_pre_Zurich/KPZ/Queue_regularity/MH_KPZ_NOIC.py:86: RuntimeWarning: invalid value encountered in scalar subtract
+  diffusion = nu * dt / dx**2 * (u[i + 1] - 2 * u[i] + u[i - 1])
+/mnt/home/ptarancon/NeuroNS/test_pre_Zurich/KPZ/Queue_regularity/MH_KPZ_NOIC.py:85: RuntimeWarning: invalid value encountered in scalar subtract
+  convection = -dt / dx * u[i] * (u[i] - u[i - 1])
+/mnt/home/ptarancon/NeuroNS/test_pre_Zurich/KPZ/Queue_regularity/MH_KPZ_NOIC.py:86: RuntimeWarning: invalid value encountered in scalar add
+  diffusion = nu * dt / dx**2 * (u[i + 1] - 2 * u[i] + u[i - 1])
+/mnt/sw/nix/store/71ksmx7k6xy3v9ksfkv5mp5kxxp64pd6-python-3.10.13-view/lib/python3.10/site-packages/torch/utils/_device.py:77: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /dev/shm/nix-build-py-torch-2.2.2.drv-0/nixbld1/spack-stage-py-torch-2.2.2-mrga1lajkybghn1l6sc83lyspvbakfzk/spack-src/torch/csrc/utils/tensor_new.cpp:275.)
+  return func(*args, **kwargs)
+/mnt/sw/nix/store/71ksmx7k6xy3v9ksfkv5mp5kxxp64pd6-python-3.10.13-view/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:156: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+torch.Size([51005])
+Equations dictionary generated
+{'equations_0': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c96f250>}
+Equation list ready
+(1, 1)
+head 0
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c96f250>
+torch.Size([100, 100, 5, 10, 10])
+Learning rate  5.385707807638509e-07
+torch.Size([101, 101, 5, 3])
+torch.Size([101, 101, 5, 10])
+Solving Stochastic Burgers: 100%|█████████████████████████████| 101/101 [10:28:21<00:00, 373.29s/it]

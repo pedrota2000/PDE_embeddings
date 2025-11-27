@@ -1,0 +1,69 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) modules/2.4-20250724   2) openblas/single-0.3.29
+/mnt/sw/nix/store/71ksmx7k6xy3v9ksfkv5mp5kxxp64pd6-python-3.10.13-view/lib/python3.10/site-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/mnt/sw/nix/store/71ksmx7k6xy3v9ksfkv5mp5kxxp64pd6-python-3.10.13-view/lib/python3.10/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+/mnt/sw/nix/store/71ksmx7k6xy3v9ksfkv5mp5kxxp64pd6-python-3.10.13-view/lib/python3.10/site-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/mnt/sw/nix/store/71ksmx7k6xy3v9ksfkv5mp5kxxp64pd6-python-3.10.13-view/lib/python3.10/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+/mnt/sw/nix/store/71ksmx7k6xy3v9ksfkv5mp5kxxp64pd6-python-3.10.13-view/lib/python3.10/site-packages/torch/_compile.py:24: UserWarning: optimizer contains a parameter group with duplicate parameters; in future, this will cause an error; see github.com/pytorch/pytorch/issues/40967 for more information
+  return torch._dynamo.disable(fn, recursive)(*args, **kwargs)
+/mnt/sw/nix/store/71ksmx7k6xy3v9ksfkv5mp5kxxp64pd6-python-3.10.13-view/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:156: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+/mnt/sw/nix/store/71ksmx7k6xy3v9ksfkv5mp5kxxp64pd6-python-3.10.13-view/lib/python3.10/site-packages/torch/functional.py:507: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /dev/shm/nix-build-py-torch-2.2.2.drv-0/nixbld1/spack-stage-py-torch-2.2.2-mrga1lajkybghn1l6sc83lyspvbakfzk/spack-src/aten/src/ATen/native/TensorShape.cpp:3549.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Directory '/mnt/home/ptarancon/NeuroNS/test_post_Zurich/Burgers_more_components/Plots/Burgers_25NU_Fourier_Orthogonal_random' created.
+[<MHBundleSolver2D_orthogonal.BundleIBVP1D object at 0x15548da836a0>, <MHBundleSolver2D_orthogonal.BundleIBVP1D object at 0x15548da83610>, <MHBundleSolver2D_orthogonal.BundleIBVP1D object at 0x15548da833a0>, <MHBundleSolver2D_orthogonal.BundleIBVP1D object at 0x15548da83310>, <MHBundleSolver2D_orthogonal.BundleIBVP1D object at 0x15548da832e0>, <MHBundleSolver2D_orthogonal.BundleIBVP1D object at 0x15548da832b0>, <MHBundleSolver2D_orthogonal.BundleIBVP1D object at 0x15548da83280>, <MHBundleSolver2D_orthogonal.BundleIBVP1D object at 0x15548da83250>, <MHBundleSolver2D_orthogonal.BundleIBVP1D object at 0x15548da83220>, <MHBundleSolver2D_orthogonal.BundleIBVP1D object at 0x15548da831f0>, <MHBundleSolver2D_orthogonal.BundleIBVP1D object at 0x15548da83880>, <MHBundleSolver2D_orthogonal.BundleIBVP1D object at 0x15548da83190>, <MHBundleSolver2D_orthogonal.BundleIBVP1D object at 0x15548da83160>, <MHBundleSolver2D_orthogonal.BundleIBVP1D object at 0x15548da83130>, <MHBundleSolver2D_orthogonal.BundleIBVP1D object at 0x15548da80400>, <MHBundleSolver2D_orthogonal.BundleIBVP1D object at 0x15548da80430>, <MHBundleSolver2D_orthogonal.BundleIBVP1D object at 0x15548da80460>, <MHBundleSolver2D_orthogonal.BundleIBVP1D object at 0x15548da80490>, <MHBundleSolver2D_orthogonal.BundleIBVP1D object at 0x15548da804c0>, <MHBundleSolver2D_orthogonal.BundleIBVP1D object at 0x15548da804f0>]
+(1, 20)
+Computing orthogonality
+Equations dictionary generated
+{'equations_0': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb130>, 'equations_1': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb2e0>, 'equations_2': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb0a0>, 'equations_3': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb010>, 'equations_4': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6faf80>, 'equations_5': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6faef0>, 'equations_6': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fae60>, 'equations_7': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fadd0>, 'equations_8': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb1c0>, 'equations_9': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb250>, 'equations_10': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb370>, 'equations_11': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb400>, 'equations_12': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb490>, 'equations_13': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb520>, 'equations_14': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb5b0>, 'equations_15': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb640>, 'equations_16': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb6d0>, 'equations_17': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb760>, 'equations_18': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb7f0>, 'equations_19': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb880>}
+Equation list ready
+(1, 20)
+head 0
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb130>
+head 1
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb2e0>
+head 2
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb0a0>
+head 3
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb010>
+head 4
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6faf80>
+head 5
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6faef0>
+head 6
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fae60>
+head 7
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fadd0>
+head 8
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb1c0>
+head 9
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb250>
+head 10
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb370>
+head 11
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb400>
+head 12
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb490>
+head 13
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb520>
+head 14
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb5b0>
+head 15
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb640>
+head 16
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb6d0>
+head 17
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb760>
+head 18
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb7f0>
+head 19
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fb880>
+Learning rate  0.00010679775258520652
+torch.Size([101, 103, 25, 3])
+torch.Size([101, 103, 25, 20])

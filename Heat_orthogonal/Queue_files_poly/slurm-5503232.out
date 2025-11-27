@@ -1,0 +1,40 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) modules/2.4-20250724   2) openblas/single-0.3.29
+/mnt/sw/nix/store/71ksmx7k6xy3v9ksfkv5mp5kxxp64pd6-python-3.10.13-view/lib/python3.10/site-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/mnt/sw/nix/store/71ksmx7k6xy3v9ksfkv5mp5kxxp64pd6-python-3.10.13-view/lib/python3.10/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float64'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+/mnt/sw/nix/store/71ksmx7k6xy3v9ksfkv5mp5kxxp64pd6-python-3.10.13-view/lib/python3.10/site-packages/numpy/core/getlimits.py:549: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  setattr(self, word, getattr(machar, word).flat[0])
+/mnt/sw/nix/store/71ksmx7k6xy3v9ksfkv5mp5kxxp64pd6-python-3.10.13-view/lib/python3.10/site-packages/numpy/core/getlimits.py:89: UserWarning: The value of the smallest subnormal for <class 'numpy.float32'> type is zero.
+  return self._float_to_str(self.smallest_subnormal)
+/mnt/sw/nix/store/71ksmx7k6xy3v9ksfkv5mp5kxxp64pd6-python-3.10.13-view/lib/python3.10/site-packages/torch/_compile.py:24: UserWarning: optimizer contains a parameter group with duplicate parameters; in future, this will cause an error; see github.com/pytorch/pytorch/issues/40967 for more information
+  return torch._dynamo.disable(fn, recursive)(*args, **kwargs)
+/mnt/sw/nix/store/71ksmx7k6xy3v9ksfkv5mp5kxxp64pd6-python-3.10.13-view/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:156: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+/mnt/sw/nix/store/71ksmx7k6xy3v9ksfkv5mp5kxxp64pd6-python-3.10.13-view/lib/python3.10/site-packages/torch/functional.py:507: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at /dev/shm/nix-build-py-torch-2.2.2.drv-0/nixbld1/spack-stage-py-torch-2.2.2-mrga1lajkybghn1l6sc83lyspvbakfzk/spack-src/aten/src/ATen/native/TensorShape.cpp:3549.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Directory '/mnt/home/ptarancon/NeuroNS/test_pre_Zurich/Heat_orthogonal/Plots/Heat_25NU_poly_Orthogonal' created.
+(1, 6)
+Computing orthogonality
+Equations dictionary generated
+{'equations_0': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fda20>, 'equations_1': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fd990>, 'equations_2': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fdab0>, 'equations_3': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fdb40>, 'equations_4': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fdbd0>, 'equations_5': <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fdc60>}
+Equation list ready
+(1, 6)
+head 0
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fda20>
+head 1
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fd990>
+head 2
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fdab0>
+head 3
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fdb40>
+head 4
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fdbd0>
+head 5
+Inside solver __init()__: <function generate_equations.<locals>.make_equations.<locals>.burguers at 0x15548c6fdc60>
+Learning rate  1.1066153454523831e-05
+torch.Size([101, 103, 25, 3])
+torch.Size([101, 103, 25, 6])
